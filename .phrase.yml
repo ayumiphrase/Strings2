@@ -3,12 +3,12 @@ phrase:
   project_id: 872e72d4904023acee437bc424c08241
   push:
     sources:
-    - file: ./Book Store_en-US.json
+    - file: ./Furniture Store_en-US.json
       params:
         locale_id: en-US
         file_format: simple_json
   pull:
     targets:
-    - file: ./Book Store_<locale_name>.json
+    - file: ./Furniture Store_<locale_name>.json
       params:
         file_format: simple_json
